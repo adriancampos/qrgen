@@ -1,0 +1,11 @@
+<head>
+    <link type="application/opensearchdescription+xml" rel="search" href="/osdd.xml" />
+    <script src="qrcode.min.js"></script>
+</head>
+
+<body>
+    <div id="qrcode"></div>
+    <script type="text/javascript">
+        new QRCode(document.getElementById("qrcode"), new URLSearchParams(window.location.search).get('q'));
+    </script>
+</body>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>QRGen</ShortName>
+  <Description>Generate a QR Code</Description>
+  <Url type="text/html" method="get"
+       template="https://aecampos.com/qrgen/?q={searchTerms}"/>
+</OpenSearchDescription>
